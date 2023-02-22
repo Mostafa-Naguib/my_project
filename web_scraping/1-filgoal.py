@@ -13,12 +13,13 @@ def web_scraping(page):
     championship_list = soup.find("div", {'id': 'match-list-viewer'}).find_all("div", {'class': 'mc-block'})
     
     for championship in championship_list:
-        # getting champion name
+        # getting championship name
         champion_name = championship.find("span").text
     
         matches_list = championship.find_all("div", {"class": "cin_cntnr"})
-        for match in matches_list:
 
+        # iterate for each match in every championship
+        for match in matches_list:
             match_info(match)
 
 
