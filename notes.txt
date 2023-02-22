@@ -1,0 +1,4 @@
+(random.sample)  --> function when you want to choose multiple random items from a list without including the duplicates. and it takes second to for the lenght of the list
+(random.choices) --> function when you want to choose multiple items out of a list including repeated.
+(random.shuffle) --> This method changes the original list, it does not return a new list.
+(random.randint) --> This method is an alias for randrange(start, stop+1)
