@@ -1,2 +1,2 @@
 # my_project
-Here where i code all my project in python
+Here where i code all my projects in python
