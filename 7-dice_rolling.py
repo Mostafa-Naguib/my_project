@@ -8,7 +8,7 @@ def main():
     elif option in ["NO", "N"]:
         sys.exit("Exit")
     else:
-        sys.exit("Invalied input")
+        sys.exit("Invalid input")
 
 def dice_rolling():
     dice_1 = random.randint(1, 6)
@@ -20,6 +20,6 @@ def dice_rolling():
     elif option in ["NO", "N"]:
         sys.exit("Exit")
     else:
-        sys.exit("Invalied input")
+        sys.exit("Invalid input")
 
 main()
