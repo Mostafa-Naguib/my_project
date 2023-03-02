@@ -1,0 +1,2 @@
+BeautifulSoup is the module that parsing the bytecode to html
+when we want to access an element in html we use (1-id   2-name  3-class)
