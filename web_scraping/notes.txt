@@ -1,2 +1,0 @@
-BeautifulSoup is the module that parsing the bytecode to html
-
